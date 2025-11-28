@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00678A17-F3E6-B0DC-26E3-9E6A2569B68F" containerWithKeyObject="5CB932F2-F592-33F0-09D8-EB5B4EC800F2" localFKIndex="55166113-A518-EEB8-85BD-E9C6AD810A12" name="Peminjaman_Status_Peminjaman_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>F2BF84CC-E873-51AC-7526-35BD23041B79</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<referredTableLongName>Status_Peminjaman</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C8167211-04B2-5EDB-C9A1-F9E700D0CDE9</referredTableID>
+<keyObject>F1EA55BC-C8BF-B4C8-66EE-63CEC30DAF08</keyObject>
+<referredKeyID>F1EA55BC-C8BF-B4C8-66EE-63CEC30DAF08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Status_Peminjaman</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

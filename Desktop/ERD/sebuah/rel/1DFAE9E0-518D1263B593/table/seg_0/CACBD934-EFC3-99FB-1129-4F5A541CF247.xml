@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CACBD934-EFC3-99FB-1129-4F5A541CF247" name="Status_Pengembalian">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>9036ABE9-C446-7D8F-7A9C-45F48DAF7823</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Status_Pengembalian" id="667CE023-1053-B9CB-A6F4-F3F6EDB16CEC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>470EAA60-362A-53DA-2375-429A13F77D1F</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Pengembalian" id="5F5A5D55-19F2-416B-FCA7-CBCB83395B0E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>40804E16-A18A-B2A7-31DA-EA6C2FF6D9FE</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FCE2364-088A-B801-2B67-B4E0A4A45BC1" name="Status_Pengembalian_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>DCB94E04-1125-A4D9-7625-19633510C61B</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="667CE023-1053-B9CB-A6F4-F3F6EDB16CEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

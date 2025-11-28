@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="525744C8-7357-F04C-7697-C2A98A8180D2" name="Anggota">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>2D57BB4F-CFCE-E909-C055-A75809DE24CF</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Anggota" id="A0A35D8D-2F0A-9AD7-6C9B-545CE127FF16">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>8385CCD0-76A3-2E1B-F7CC-4270A09C5E48</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Telp" id="4111FEAB-864F-F8B3-CB4A-9CF2DCC54970">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>F82DF441-69D6-CFE4-C3A6-B6D8FEE7A9B2</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Anggota" id="B18103D6-FC79-474A-FDAF-23B9CCF5EC77">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>F34377AE-FF27-ABD7-3663-6EAE819CF744</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Anggota" id="656D8825-7558-C5C8-95F7-F52E435C60E2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>5800CB9A-E08E-0607-6FC2-25B37A92B758</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Anggota" id="3322A464-F53A-6465-2A70-5D94135FACC0">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>EBBA54C0-AEFC-7FD5-D13B-91242381634C</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9E6BF85-EE72-BB20-DC74-E0CBDD41A516" name="Anggota_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>C6A5A277-A364-573B-2C81-9222E8C233DB</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A35D8D-2F0A-9AD7-6C9B-545CE127FF16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FFB30D2-66C0-6593-D219-73BAE077D061" name="Anggota_Email_Anggota_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>56D0D31D-49CC-F155-90B0-791C0BDA378B</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656D8825-7558-C5C8-95F7-F52E435C60E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

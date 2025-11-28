@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D93870C-76B3-4E4E-937C-69678E5FFEDE" name="Genre">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:13:53 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Genre" id="EE0DA9ED-20F1-8C97-75B5-E8BD6EFCC7FD">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:14:00 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Genre" id="4EB4DE23-5672-5F1A-3DA0-66BA4602EF5E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:14:18 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7C2ED6C-3866-0E6A-6771-A830A6E2AF90" name="Genre PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:14:15 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE0DA9ED-20F1-8C97-75B5-E8BD6EFCC7FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="613E63F4-7184-C86A-1C84-1B0CBF6C5958" name="Buku">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:09:28 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Buku" id="C32295B3-DAE9-A805-F8B9-3291E4F18525">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:09:33 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul_Buku" id="75FDB79F-270B-9500-51E1-6303D8EC4E07">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:09:56 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ketersediaan" id="D2FDAA3A-4181-9228-BD5F-FFB52E451E95">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:10:45 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51875DC9-0809-A3B1-392B-26604E8FDBE5" name="Buku PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:09:47 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C32295B3-DAE9-A805-F8B9-3291E4F18525</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

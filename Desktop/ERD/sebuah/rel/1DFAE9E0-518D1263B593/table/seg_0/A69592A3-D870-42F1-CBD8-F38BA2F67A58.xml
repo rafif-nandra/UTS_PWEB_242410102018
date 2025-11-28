@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A69592A3-D870-42F1-CBD8-F38BA2F67A58" name="Buku">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>613E63F4-7184-C86A-1C84-1B0CBF6C5958</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Buku" id="1FCD0CFC-CF11-F4C3-3D41-373F9C5B0DEC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>C32295B3-DAE9-A805-F8B9-3291E4F18525</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul_Buku" id="0692D753-D089-FC18-0BCF-D0148A5467CB">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>75FDB79F-270B-9500-51E1-6303D8EC4E07</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ketersediaan" id="78385EBC-3073-A168-02AE-566547FB1612">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>D2FDAA3A-4181-9228-BD5F-FFB52E451E95</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB22F65E-AD1A-4A6F-8B54-4B61FA6D689B" name="Buku_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>51875DC9-0809-A3B1-392B-26604E8FDBE5</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FCD0CFC-CF11-F4C3-3D41-373F9C5B0DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

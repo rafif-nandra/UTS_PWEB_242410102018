@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8167211-04B2-5EDB-C9A1-F9E700D0CDE9" name="Status_Peminjaman">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>5D32A42F-09CF-03AC-0EF1-A56C5D312D84</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Status_Peminjaman" id="E00904FB-E7DE-6E4A-0530-58D565B73C24">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>8CFAA4B2-8E64-AFCB-A5EB-97A01E960955</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Peminjaman" id="08E0111E-63EE-4C75-6BBF-C1E6E96A000A">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>046CFFEA-D62D-16EB-7265-C3DCC0200B15</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1EA55BC-C8BF-B4C8-66EE-63CEC30DAF08" name="Status_Peminjaman_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>0CECE75A-98F7-841B-ACFA-D05321DABB20</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E00904FB-E7DE-6E4A-0530-58D565B73C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FFBAABE-BB8E-9378-D37B-212495FC33D3" name="Relation_4">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Buku_ID_Buku" id="26D686F7-F12F-B615-A632-922F94D97499">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C4B258-B16F-5747-E210-EB45357A7924" referredColumn="1FCD0CFC-CF11-F4C3-3D41-373F9C5B0DEC"/>
+</associations>
+</Column>
+<Column name="Peminjaman_ID_Peminjaman" id="AE4FAB43-C113-89DB-8AE5-6CCAA76B8A49">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75CDEF25-C7EA-D10A-BD42-55F1E8B15BB0" referredColumn="3E7AFC33-CAD2-6AD0-9520-C587DC03D078"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2412F388-3497-7D1C-3C1F-B0511E80BAE3" name="Relation_4_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26D686F7-F12F-B615-A632-922F94D97499"/>
+<colUsage columnID="AE4FAB43-C113-89DB-8AE5-6CCAA76B8A49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84304CAF-F146-DD50-43AF-646FCC10D9B6" name="Relation_4_Buku_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>B21AD702-81FA-170C-5C42-CFABD86AFB0A</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26D686F7-F12F-B615-A632-922F94D97499"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F80ABA5D-308E-57A1-1B96-5C68F9F9B23F" name="Relation_4_Peminjaman_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>B21AD702-81FA-170C-5C42-CFABD86AFB0A</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4FAB43-C113-89DB-8AE5-6CCAA76B8A49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

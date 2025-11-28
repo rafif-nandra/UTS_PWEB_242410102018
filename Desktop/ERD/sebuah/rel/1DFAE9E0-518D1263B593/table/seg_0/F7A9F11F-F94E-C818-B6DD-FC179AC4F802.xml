@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7A9F11F-F94E-C818-B6DD-FC179AC4F802" name="Karyawan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>9949BCB8-9E24-8B2F-7492-49359486F7FF</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Karyawan" id="1983C045-7F59-937B-42E6-D5BD3FC354DC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>E8CA43D3-5336-D9EF-BBD6-70FB54869B03</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Karyawan" id="3BD1A44E-DA0E-31AF-E5BF-9C485685D246">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>E542581D-BFB0-3966-DA77-B7FB415AFFE1</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Telp" id="B6DA8684-54C6-BD8C-7786-F5E05E89B837">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>EC2E5946-700E-53C0-A4A1-B0E465547DBA</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Karyawan" id="E17BDFE0-F1B3-DF67-EFAC-E8D0C901C7EA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>096B2E89-AF88-9AC8-85A0-E0CA5DF4E66F</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F847E27E-FA60-B038-4515-F3F5B8C74214" name="Karyawan_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>AB3658E5-656E-B5BE-73AB-C76E05E12CED</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1983C045-7F59-937B-42E6-D5BD3FC354DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A75C4188-BE4B-275E-7B51-38DA4833B6E8" name="Karyawan_Email_Karyawan_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>25521678-CDB3-BC04-6AB0-EAEF3007689C</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17BDFE0-F1B3-DF67-EFAC-E8D0C901C7EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

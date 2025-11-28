@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82F4432F-D965-8D9B-69F4-BA8C5492C002" name="Penulis">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:14:54 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Penulis" id="F3EEB5FB-3599-70A2-9D84-D362B213040B">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:15:01 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Penulis" id="4731CD56-EFC3-57C4-2799-79A928539206">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:15:31 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Telp" id="869723FA-6E07-17B3-6462-786E0D41C854">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:15:57 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_Penulis" id="3859AFF4-A529-6A42-35F8-D40DAC33FD7E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:16:37 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128 CHAR</dataTypeSize>
+<ownDataTypeParameters>128 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF9A9CEB-9819-F572-FF60-D39C42FCC679" name="Penulis PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:15:23 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3EEB5FB-3599-70A2-9D84-D362B213040B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C6D7F8D2-615C-B483-1288-A9A48FB70AC4" name="Key_2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:17:06 UTC</createdTime>
+<ownerDesignName>sebuah</ownerDesignName>
+<engineerTo>
+<item key="1DFAE9E0-12B0-F290-215A-518D1263B593" value="true"/>
+</engineerTo>
+<newElementsIDs>3859AFF4-A529-6A42-35F8-D40DAC33FD7E</newElementsIDs>
+<usedAttributes>
+<attributeRef>3859AFF4-A529-6A42-35F8-D40DAC33FD7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

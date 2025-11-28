@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93C71121-0E98-CB0A-D1CA-BD1EEC8AD178" name="Transaksi">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-23 21:56:51 UTC</createdTime>
+<ownerDesignName>Tugas_Basda</ownerDesignName>
+<engineerTo>
+<item key="C22C3383-EBFB-1756-A49C-F570F116BDBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Transaksi" id="F55DAE3E-3703-0C63-2C7B-188170E5A5F7">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-23 21:57:03 UTC</createdTime>
+<ownerDesignName>Tugas_Basda</ownerDesignName>
+<engineerTo>
+<item key="C22C3383-EBFB-1756-A49C-F570F116BDBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Transaksi" id="FC5283B5-6EE6-6504-D406-D625E7AF3230">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-23 21:57:24 UTC</createdTime>
+<ownerDesignName>Tugas_Basda</ownerDesignName>
+<engineerTo>
+<item key="C22C3383-EBFB-1756-A49C-F570F116BDBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_Pembayaran" id="D5BAD1EC-8EDB-958C-2312-2E177E58371B">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-23 21:57:50 UTC</createdTime>
+<ownerDesignName>Tugas_Basda</ownerDesignName>
+<engineerTo>
+<item key="C22C3383-EBFB-1756-A49C-F570F116BDBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6EF3109-951B-DE78-51ED-B2E389403A4F" name="Transaksi PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-23 21:57:20 UTC</createdTime>
+<ownerDesignName>Tugas_Basda</ownerDesignName>
+<engineerTo>
+<item key="C22C3383-EBFB-1756-A49C-F570F116BDBF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F55DAE3E-3703-0C63-2C7B-188170E5A5F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

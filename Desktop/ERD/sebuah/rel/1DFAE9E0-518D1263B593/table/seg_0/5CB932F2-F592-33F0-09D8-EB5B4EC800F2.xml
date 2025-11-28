@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB932F2-F592-33F0-09D8-EB5B4EC800F2" name="Peminjaman">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>E16D21D7-ECA1-6484-7969-91F03E4EBA6C</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Peminjaman" id="3E7AFC33-CAD2-6AD0-9520-C587DC03D078">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>F3E04233-EB4D-AC20-9A11-ABB5C7E8172F</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Peminjaman" id="F0A0D8A4-144D-2B2A-56CD-F9B8909CAA8F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:45 UTC</createdTime>
+<generatorID>1E6429FA-F7C0-C6DC-369B-7DDE9DE51234</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Status_Peminjaman" id="73F9C192-A10F-DC35-909A-6FD8EA2444CB">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>DBDF0FB9-58BD-50B2-EBA2-0BAAE1AD27BB</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00678A17-F3E6-B0DC-26E3-9E6A2569B68F" referredColumn="E00904FB-E7DE-6E4A-0530-58D565B73C24"/>
+</associations>
+</Column>
+<Column name="ID_Anggota" id="94B57A42-FF3C-B640-8925-1991CB2CD642">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>96BA0BE8-7932-DA9B-68F3-FA23EF21ECDA</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ACE35EC-9E67-C347-AE24-43F774279BF4" referredColumn="A0A35D8D-2F0A-9AD7-6C9B-545CE127FF16"/>
+</associations>
+</Column>
+<Column name="ID_Karyawan" id="0D89F45E-EA2C-0DE0-D3A8-57C15B271C63">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>F01DD93B-97DA-7C69-3E98-DF8EFB8580A7</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FACE301-5A60-0526-FE40-5ADE9DB19F57" referredColumn="1983C045-7F59-937B-42E6-D5BD3FC354DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81EA6DDA-E2BA-A8E6-5D35-4025385F937D" name="Peminjaman_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>C0BDE047-B85D-8460-98F5-C4990B82D87E</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E7AFC33-CAD2-6AD0-9520-C587DC03D078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55166113-A518-EEB8-85BD-E9C6AD810A12" name="Peminjaman_Status_Peminjaman_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>F2BF84CC-E873-51AC-7526-35BD23041B79</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F9C192-A10F-DC35-909A-6FD8EA2444CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03636599-D0FE-6245-CC29-568CD61587A5" name="Peminjaman_Anggota_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>35EFF2EE-FFB1-D651-910D-D5D214CE1BE1</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B57A42-FF3C-B640-8925-1991CB2CD642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="029E095A-D55C-F36C-E23E-7B9D6F495517" name="Peminjaman_Karyawan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-09-19 06:35:46 UTC</createdTime>
+<generatorID>9E7ACA5A-B1B9-4D58-DBEA-0A8DE13D866E</generatorID>
+<ownerDesignName>sebuah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D89F45E-EA2C-0DE0-D3A8-57C15B271C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

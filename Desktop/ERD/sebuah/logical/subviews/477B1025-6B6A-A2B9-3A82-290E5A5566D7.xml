@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="477B1025-6B6A-A2B9-3A82-290E5A5566D7">
+<createdBy>rafifnandra</createdBy>
+<modifiedBy>rafifnandra</modifiedBy>
+<createdTime>2025-09-19 05:55:01 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>true</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2D57BB4F-CFCE-E909-C055-A75809DE24CF" otype="Entity" vid="B5219C31-FD71-60C7-A804-9042AE69B656">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="795" y="31" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4D93870C-76B3-4E4E-937C-69678E5FFEDE" otype="Entity" vid="FFF655F2-9DC9-3793-A64F-8A74460BBAC7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="82" y="446" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5D32A42F-09CF-03AC-0EF1-A56C5D312D84" otype="Entity" vid="6D4BD301-2A27-0ECE-5D47-EB37FDAA9CC4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="66" y="41" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5D7C9EB5-F7C9-AE20-9951-0BB85A224C0D" otype="Entity" vid="012DFB05-9327-E28C-43BE-88B70FC8C6DE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="804" y="233" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="613E63F4-7184-C86A-1C84-1B0CBF6C5958" otype="Entity" vid="23ED5831-23DA-3A70-E333-B9064C5FDBDD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="274" y="259" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="82F4432F-D965-8D9B-69F4-BA8C5492C002" otype="Entity" vid="AC0E16A0-3D9E-9424-15B0-DC66032FB3B4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="404" y="445" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9036ABE9-C446-7D8F-7A9C-45F48DAF7823" otype="Entity" vid="68223977-4436-A79C-A5A0-7BD25EDD9C65">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="739" y="458" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="9949BCB8-9E24-8B2F-7492-49359486F7FF" otype="Entity" vid="7E737E92-193B-BFEA-1AE2-9D556B4B04B6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="542" y="237" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D9475367-F149-90DA-F952-CAE9F237B9E3" otype="Entity" vid="1314C1D0-ABD7-AE68-E0E1-04E1A052C1D3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="46" y="234" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E16D21D7-ECA1-6484-7969-91F03E4EBA6C" otype="Entity" vid="4D3C8705-1504-C52A-F36C-714E501699EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="396" y="38" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="35EFF2EE-FFB1-D651-910D-D5D214CE1BE1" otype="Relation" vid_source="B5219C31-FD71-60C7-A804-9042AE69B656" vid_target="4D3C8705-1504-C52A-F36C-714E501699EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="720" y="59" width="69" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="576" y="92" width="64" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="795" y="89"/>
+<point x="566" y="89"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9E7ACA5A-B1B9-4D58-DBEA-0A8DE13D866E" otype="Relation" vid_source="7E737E92-193B-BFEA-1AE2-9D556B4B04B6" vid_target="4D3C8705-1504-C52A-F36C-714E501699EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="554" y="237"/>
+<point x="554" y="148"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B21AD702-81FA-170C-5C42-CFABD86AFB0A" otype="Relation" vid_source="23ED5831-23DA-3A70-E333-B9064C5FDBDD" vid_target="4D3C8705-1504-C52A-F36C-714E501699EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="435" y="223" width="52" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="435" y="192" width="57" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="435" y="259"/>
+<point x="435" y="148"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F2BF84CC-E873-51AC-7526-35BD23041B79" otype="Relation" vid_source="6D4BD301-2A27-0ECE-5D47-EB37FDAA9CC4" vid_target="4D3C8705-1504-C52A-F36C-714E501699EF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="246" y="64" width="54" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="338" y="97" width="52" height="30"/>
+<noBackgroundColor>true</noBackgroundColor>
+<noForegroundColor>true</noForegroundColor>
+</targetLabel>
+<points>
+<point x="236" y="94"/>
+<point x="396" y="94"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
