@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="480BC9B4-8F72-EAA8-8FF7-9A6E9DC31F2B" name="metode pembayaran">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:04:06 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id metode pembayaran" id="695D263D-CBDA-4D4A-247E-A0B8D323F5E5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:04:28 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama metode" id="75E728C4-7A2D-5027-4F87-5FA8DCF2FB0D">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:04:59 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="895857AC-FE57-DB33-465F-DFE2B3BAF35F" name="metode_pembayaran_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:04:53 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>695D263D-CBDA-4D4A-247E-A0B8D323F5E5</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="83E6C165-DBD3-26DB-C7D9-F89D861AEA2B" name="metode_pembayaran_nama_metode_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:05:33 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<newElementsIDs>75E728C4-7A2D-5027-4F87-5FA8DCF2FB0D</newElementsIDs>
+<usedAttributes>
+<attributeRef>75E728C4-7A2D-5027-4F87-5FA8DCF2FB0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

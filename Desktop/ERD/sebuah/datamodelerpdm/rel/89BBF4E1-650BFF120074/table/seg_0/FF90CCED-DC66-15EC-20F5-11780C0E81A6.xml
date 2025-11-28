@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF90CCED-DC66-15EC-20F5-11780C0E81A6" name="jenis_menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>AE979963-7428-23D6-5BC1-5CFADF4E4E80</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jenis_menu" id="8BFFE1A4-18F8-37F7-EA1A-C5F3C7D41921">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>17301BB9-0B63-E27B-1018-5EBCDFFCD1D8</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_jenis_menu" id="86981D76-4E6C-9234-DBD6-A1807D8AEAAC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>6527809E-49C2-AC86-3B20-18978AA0E3A0</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C22CEF1-FBC7-CFF4-BD24-C6C40997FDD8" name="jenis_menu_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>7B563DC1-EAD9-87A6-7A1A-44409FD8ECB2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFFE1A4-18F8-37F7-EA1A-C5F3C7D41921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E01F0D21-382E-F15E-D700-2EE9F6705235" name="jenis_menu_nama_jenis_menu_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>03807F10-6C84-4DEF-EEA9-5C83CA8DEF03</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86981D76-4E6C-9234-DBD6-A1807D8AEAAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

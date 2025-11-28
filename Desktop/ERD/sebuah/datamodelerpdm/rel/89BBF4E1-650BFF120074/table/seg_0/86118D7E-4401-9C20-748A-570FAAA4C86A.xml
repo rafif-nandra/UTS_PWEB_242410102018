@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86118D7E-4401-9C20-748A-570FAAA4C86A" name="metode_pembayaran">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>480BC9B4-8F72-EAA8-8FF7-9A6E9DC31F2B</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metode_pembayaran" id="ABF0AA5B-E6C7-CF86-4E39-C1AC101EB4DC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>695D263D-CBDA-4D4A-247E-A0B8D323F5E5</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_metode" id="2D6E3202-45D5-23D8-7F7B-8D0818CB3580">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>75E728C4-7A2D-5027-4F87-5FA8DCF2FB0D</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FEE3E96-CC56-8246-ECCD-0196AF6D3DD3" name="metode_pembayaran_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>895857AC-FE57-DB33-465F-DFE2B3BAF35F</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF0AA5B-E6C7-CF86-4E39-C1AC101EB4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA2F324F-BF21-62F5-0501-FBF97AEFDDC6" name="metode_pembayaran_nama_metode_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>83E6C165-DBD3-26DB-C7D9-F89D861AEA2B</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D6E3202-45D5-23D8-7F7B-8D0818CB3580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

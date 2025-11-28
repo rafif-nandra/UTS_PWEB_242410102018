@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCC5FE69-78ED-3AC6-95CC-E76DC9ECA52F" name="transaksi">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>942FA92C-349C-3C98-8756-6975DC59B6B2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaksi" id="A305EAD0-300F-7D02-F6B3-35F6FDB2FE56">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>604E505F-3DB0-5C4F-0A4F-65094C27F15F</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_admin" id="32F13E55-D6A9-81B9-4B08-18141F545907">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>910ADB7D-E43B-FA1C-AF43-A2BE06199DCF</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pesanan" id="21770676-C893-B665-679C-A886CF791D54">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>A8CDC15F-74D4-6416-B048-8C04843F6E1E</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_metode_pembayaran" id="529CA191-B90C-2ECB-6189-846B165D8EAA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>06F60DA1-CDB4-4F39-23DE-66D598E9EF1C</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pembayaran" id="4E488598-AAEF-C088-46F8-2B50DEC961EF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>46A36E32-9FB7-C785-AC40-EB76570B45EC</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_harga" id="C57793B6-6FB7-B8A2-3F0A-9C45C03F3BBA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>E9F137C3-CD8C-CFA6-63D9-21A72D845D2A</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_validasi" id="7A89C391-76D9-4B17-FE6C-E3770D07A5CF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>D48734B7-23E5-0500-0D2E-FFAF14D0F6A2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_metode_pembayaran1" id="E778241B-BE0E-613E-2714-5BA673620404">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>383FC9C4-5970-B282-B60A-793960D463FF</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C19FD8-D239-63B6-1338-B82BDB76DD67" referredColumn="ABF0AA5B-E6C7-CF86-4E39-C1AC101EB4DC"/>
+</associations>
+</Column>
+<Column name="id_admin1" id="B1896913-985E-6BFF-E508-381C5932A6C7">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>49D08A0F-312F-64DA-6D88-91DB8F6E9F50</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B83BF96-A867-4DD7-830A-B4FCF0720436" referredColumn="CF0C52D3-20CE-222A-D04B-07B437B7E416"/>
+</associations>
+</Column>
+<Column name="id_pesanan1" id="D6694B6E-C797-EAC0-59CA-C50086D0A356">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>4B504CE1-15F3-3684-63B8-E083800F82B1</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19BEFC5F-EFBD-3E29-88CA-30B6B4E63090" referredColumn="40519949-4302-688A-7DC2-078CF389F69E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2990AB40-C291-7C1B-5327-75680754F9A9" name="transaksi_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>8ABA3F21-4294-D303-763F-2BC3C55399DB</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A305EAD0-300F-7D02-F6B3-35F6FDB2FE56"/>
+<colUsage columnID="32F13E55-D6A9-81B9-4B08-18141F545907"/>
+<colUsage columnID="21770676-C893-B665-679C-A886CF791D54"/>
+<colUsage columnID="529CA191-B90C-2ECB-6189-846B165D8EAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63B9B614-0575-E507-5457-0E30621E86CA" name="transaksi_metode_pembayaran_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>28C6F763-C134-3F43-B5A7-8C929094364C</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E778241B-BE0E-613E-2714-5BA673620404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A84271A-CE6C-5213-08FB-D71DA058075A" name="transaksi_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>14D16733-A3D3-E35E-38F6-CD1BA21543EE</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1896913-985E-6BFF-E508-381C5932A6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D6B30AD-3541-A90B-10FD-190D50C23B34" name="transaksi_pesanan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>2328DC0C-BEEF-2FCF-1F39-F6411ACE2EB4</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6694B6E-C797-EAC0-59CA-C50086D0A356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

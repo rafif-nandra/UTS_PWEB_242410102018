@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F4A140C-834C-7865-87EF-624AE921B0DE" name="menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:46:11 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id menu" id="F24BDB35-E190-22F4-024F-4C0B275B149B">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:46:29 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama menu" id="477E8F6F-0ED2-9F59-49A7-F4EA42C9E36A">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:46:44 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="ABC2808D-3ADF-D093-3046-836869042DE5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:47:25 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is deleted" id="F554A134-6094-FCDE-A155-400774C510EA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:48:39 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id jenis menu" id="C0337BBB-A139-A811-C979-2C366DE4FEF4">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:39 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jenis_menu" id="5C7AA59E-AAF1-03B3-3A34-FD672CD6E510">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:50:32 UTC</createdTime>
+<generatorID>409E449B-54B8-7854-9DD4-2A66C256A2FD</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>17301BB9-0B63-E27B-1018-5EBCDFFCD1D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6C1C17A-2B40-8FEC-7F05-AAF1BDB22A06" name="menu PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:46:41 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F24BDB35-E190-22F4-024F-4C0B275B149B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="89CDEF5E-1C66-C8BF-BF14-7B396B4A767C" name="menu_nama_menu_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:49:55 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<newElementsIDs>477E8F6F-0ED2-9F59-49A7-F4EA42C9E36A</newElementsIDs>
+<usedAttributes>
+<attributeRef>477E8F6F-0ED2-9F59-49A7-F4EA42C9E36A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

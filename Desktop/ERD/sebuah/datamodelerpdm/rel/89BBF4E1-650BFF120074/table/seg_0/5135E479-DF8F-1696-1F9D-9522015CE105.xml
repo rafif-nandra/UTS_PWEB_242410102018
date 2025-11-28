@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5135E479-DF8F-1696-1F9D-9522015CE105" name="admin">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>8CCFE9D6-5798-4A25-D482-1D7C2DB3E3B2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_admin" id="CF0C52D3-20CE-222A-D04B-07B437B7E416">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>C9213283-75AB-DF7C-A1E7-EC0577F14CB8</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_admin" id="9D7DFC4F-75C6-A1FA-CCBB-B2D1C329B6C3">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>005847B2-CC10-F3F7-FD66-DF2F3A76D729</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_telp_admin" id="30A2E991-3FF5-A35A-5B61-F068EF5E3FF7">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>1265FE1F-92D5-8779-CEE8-1F7C9A2CD1C2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_admin" id="087484DF-FA40-CBB7-11BD-AC839509F2A7">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>65A51D43-4892-A3F0-EA17-A64CE9F862BA</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password_admin" id="AEBC7213-C092-A496-0CA2-A52A99A52DC9">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>86DC00F0-16BB-5875-F4A0-A705BE2830E9</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="251CAE2A-F545-6CA1-D9AC-FB231FBDCEA3" name="admin_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>3367EDB4-B9F6-5A02-CEB6-253AC40462D2</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF0C52D3-20CE-222A-D04B-07B437B7E416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB5ED323-6CB4-AB9E-0325-8D34108BFFFE" name="admin_no_telp_admin_email_admin_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>AC6F875B-6C0D-796D-DA6A-E4A6FB6B7101</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A2E991-3FF5-A35A-5B61-F068EF5E3FF7"/>
+<colUsage columnID="087484DF-FA40-CBB7-11BD-AC839509F2A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

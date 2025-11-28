@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CAB2AF1-CC33-4620-19A6-A6D804BCF2AF" name="detail_shift">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>0DA8B0B9-0D71-815E-1B5D-7371CBC63ABF</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jadwal" id="E2DD977B-1FA9-CE43-1849-35E3C18A75B5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>A12AEBD4-0633-C0DB-023F-7401559F4285</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16DA6C96-CB71-38A5-B98A-5A719FD7AA83" referredColumn="ACF8D249-16C9-449E-81D0-0F10EC9F07F9"/>
+</associations>
+</Column>
+<Column name="id_admin" id="1B28D1AF-CFBD-6000-5F1B-52CD91343A31">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>0F7133F9-DC8E-7E5E-6E77-CAAD281BC1B8</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DC2AD5A-503D-9A6A-B5DC-E77102BBE8BC" referredColumn="CF0C52D3-20CE-222A-D04B-07B437B7E416"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="727F7693-7FC7-54AC-E684-E2E32F851B8F" name="detail_shift_jadwal_shift_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>90C3A566-2296-8E7B-B113-AA1911850639</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DD977B-1FA9-CE43-1849-35E3C18A75B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7A00E48-0387-D908-9610-497629D96023" name="detail_shift_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>679FE0B2-7A75-FC10-DCEE-07C12EAA9A67</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B28D1AF-CFBD-6000-5F1B-52CD91343A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

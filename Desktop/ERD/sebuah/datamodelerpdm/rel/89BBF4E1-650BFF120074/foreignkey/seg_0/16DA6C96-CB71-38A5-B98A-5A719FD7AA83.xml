@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16DA6C96-CB71-38A5-B98A-5A719FD7AA83" containerWithKeyObject="1CAB2AF1-CC33-4620-19A6-A6D804BCF2AF" localFKIndex="727F7693-7FC7-54AC-E684-E2E32F851B8F" name="detail_shift_jadwal_shift_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>90C3A566-2296-8E7B-B113-AA1911850639</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<referredTableLongName>jadwal_shift</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72D83A1B-CAB3-98AD-5941-5805733C313A</referredTableID>
+<keyObject>395EA0C7-3B4E-9C32-AD10-7CDF9B076AAC</keyObject>
+<referredKeyID>395EA0C7-3B4E-9C32-AD10-7CDF9B076AAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jadwal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AF17C62-F494-D37C-FD64-B2F918D21BEF" name="detail_pesanan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>5342F772-5478-9D13-D566-CAE39498881C</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail_pesanan" id="71440B1B-DC39-BF34-247C-2AE8E81EA6B0">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>5A92E1AE-7BE9-480F-0079-3FED2F61B1B4</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pesanan" id="F83C5078-9F3F-CF04-58B1-FC6B6A9A3A93">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>5D113576-21CB-0514-8E8F-425E4F056D16</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_menu" id="24CA2E2A-BAC6-B5BA-15C2-CF0887B101EA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>EDBDE3D4-5746-8DBC-A3A0-49E93B9AFC3C</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="E71EFD01-8138-DEC4-A998-CEE0970EE3C8">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>0F74641F-5A1D-BA50-93B7-7D7581DF5190</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_menu2" id="7157B84A-BBAF-DBDE-23A2-08F5AD405EBB">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>4FE792B0-3C78-A3F5-F41F-8218C37EC3F6</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27232688-783B-EE11-E296-5657F0CFE915" referredColumn="C9EB965C-AAF5-FBC8-AFAF-85885A4ED1C1"/>
+</associations>
+</Column>
+<Column name="id_pesanan1" id="8F229DE2-FE02-A9D3-03F6-B40B5F12C308">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>0BCA48D7-106F-C62D-6680-7CE5B986B022</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CE62F59-A7E0-77E5-E68C-A80EA1CFF449" referredColumn="40519949-4302-688A-7DC2-078CF389F69E"/>
+</associations>
+</Column>
+<Column name="id_menu1" id="CAAAEC04-45EE-089B-330F-EFD3EC123FB5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>375CDB88-0D72-D97E-8DC6-228B605FCAA1</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AD45B10-EB74-C613-16A1-E9F0FC8ABED2" referredColumn="C9EB965C-AAF5-FBC8-AFAF-85885A4ED1C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0F2621F-3EE3-6ACA-CBF1-4AA174FD51AC" name="detail_pesanan_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>C7840214-4236-272A-BA42-20A3BD0C3D21</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71440B1B-DC39-BF34-247C-2AE8E81EA6B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A021AF64-39AE-46B2-156C-8B017084B19C" name="detail_pesanan__IDX">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:55:06 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D2B0D448-378F-4045-562F-FD9047C4294E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7157B84A-BBAF-DBDE-23A2-08F5AD405EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA366C13-2D5E-9677-C6E7-1763B921CDA8" name="detail_pesanan_menu_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>D2B0D448-378F-4045-562F-FD9047C4294E</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7157B84A-BBAF-DBDE-23A2-08F5AD405EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8EB05A1-34AD-A14F-F017-E50620F4942F" name="detail_pesanan_pesanan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>3050E14D-6549-70D7-BA9A-9407BD55A74E</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F229DE2-FE02-A9D3-03F6-B40B5F12C308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8527271-27B0-140A-7274-B2AB74963EDC" name="detail_pesanan_menu_FKv2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>11BCD401-B3D2-C76B-1565-28266A841740</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAAAEC04-45EE-089B-330F-EFD3EC123FB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

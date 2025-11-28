@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="942FA92C-349C-3C98-8756-6975DC59B6B2" name="transaksi">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:05:47 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id transaksi" id="604E505F-3DB0-5C4F-0A4F-65094C27F15F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:05:54 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id admin" id="910ADB7D-E43B-FA1C-AF43-A2BE06199DCF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:06:24 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesanan" id="A8CDC15F-74D4-6416-B048-8C04843F6E1E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:07:00 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id metode pembayaran" id="06F60DA1-CDB4-4F39-23DE-66D598E9EF1C">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:11:15 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal pembayaran" id="46A36E32-9FB7-C785-AC40-EB76570B45EC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:12:39 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total harga" id="E9F137C3-CD8C-CFA6-63D9-21A72D845D2A">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:13:56 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status validasi" id="D48734B7-23E5-0500-0D2E-FFAF14D0F6A2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:14:19 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id metode pembayaran1" id="383FC9C4-5970-B282-B60A-793960D463FF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:45:42 UTC</createdTime>
+<generatorID>28C6F763-C134-3F43-B5A7-8C929094364C</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>695D263D-CBDA-4D4A-247E-A0B8D323F5E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id admin1" id="49D08A0F-312F-64DA-6D88-91DB8F6E9F50">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:46:18 UTC</createdTime>
+<generatorID>14D16733-A3D3-E35E-38F6-CD1BA21543EE</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>C9213283-75AB-DF7C-A1E7-EC0577F14CB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesanan1" id="4B504CE1-15F3-3684-63B8-E083800F82B1">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:46:27 UTC</createdTime>
+<generatorID>2328DC0C-BEEF-2FCF-1F39-F6411ACE2EB4</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>12630A19-AFCF-0FAF-BFBE-6DC76D094263</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ABA3F21-4294-D303-763F-2BC3C55399DB" name="transaksi PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:06:18 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>604E505F-3DB0-5C4F-0A4F-65094C27F15F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

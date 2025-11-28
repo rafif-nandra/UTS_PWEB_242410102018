@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5342F772-5478-9D13-D566-CAE39498881C" name="detail pesanan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:28:08 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id detail pesanan" id="5A92E1AE-7BE9-480F-0079-3FED2F61B1B4">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:28:29 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesanan" id="5D113576-21CB-0514-8E8F-425E4F056D16">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:29:00 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id menu" id="EDBDE3D4-5746-8DBC-A3A0-49E93B9AFC3C">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:29:13 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jumlah" id="0F74641F-5A1D-BA50-93B7-7D7581DF5190">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:29:31 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pesanan1" id="0BCA48D7-106F-C62D-6680-7CE5B986B022">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:48:46 UTC</createdTime>
+<generatorID>3050E14D-6549-70D7-BA9A-9407BD55A74E</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>12630A19-AFCF-0FAF-BFBE-6DC76D094263</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id menu1" id="375CDB88-0D72-D97E-8DC6-228B605FCAA1">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:50:21 UTC</createdTime>
+<generatorID>11BCD401-B3D2-C76B-1565-28266A841740</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>F24BDB35-E190-22F4-024F-4C0B275B149B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7840214-4236-272A-BA42-20A3BD0C3D21" name="detail_pesanan_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:28:57 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A92E1AE-7BE9-480F-0079-3FED2F61B1B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

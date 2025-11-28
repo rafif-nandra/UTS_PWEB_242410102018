@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCA692B0-ABE7-9C91-1592-C9C2DD54DC3A" name="meja">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:20:14 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id meja" id="2BAF835A-50B8-58A4-113C-C2B9DC02E5DF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:20:22 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor meja" id="72DBF8CD-9CEC-9E49-E3C1-C9DE663C3B33">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:22:24 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kapasitas" id="9F8939CC-2083-AF8D-B667-51018C451DCC">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:24:29 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status occupied" id="19AB7670-DD44-3AFA-BDE9-885E26985D90">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:26:29 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96ECD127-D28B-9B97-0898-FD085F56B593" name="meja PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:22:15 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BAF835A-50B8-58A4-113C-C2B9DC02E5DF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4E169F40-D7EE-C55D-B014-BCE6AA0CE92D" name="Key_2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:35:02 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<newElementsIDs>72DBF8CD-9CEC-9E49-E3C1-C9DE663C3B33</newElementsIDs>
+<usedAttributes>
+<attributeRef>72DBF8CD-9CEC-9E49-E3C1-C9DE663C3B33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

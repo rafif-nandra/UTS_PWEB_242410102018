@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A346674-5C0C-B7BE-C8BF-C3FFB98EB213" name="pesanan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>70814C06-124E-072E-49FC-52DCDDD9F03D</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pesanan" id="40519949-4302-688A-7DC2-078CF389F69E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>12630A19-AFCF-0FAF-BFBE-6DC76D094263</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pelanggan" id="D3CE0746-815A-37E6-DE21-F994BB481426">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>C14D1665-A1BF-6CA9-27D8-73DBA26E176E</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_meja" id="0D84952B-118E-C2BF-A3D3-6648EA7FB381">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>A59FF077-3A3B-EFBB-84C9-71EE0EDB7669</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_pesanan" id="87CB1A61-5738-F995-4138-F22909569C98">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>41C352C2-B328-7469-5D92-CBD95EF9D49A</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pesanan" id="46CFCD84-2486-98A2-7D25-FC21CDCD582C">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>A1BE1A4D-A32B-4525-2CD3-6A7CD2F655CD</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_meja1" id="80DCB68F-5C67-AEFA-9FFA-5A21F73F56C0">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>D5FDC21A-9B91-991E-890A-418CF1ACEAEF</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8458277-7C24-AB22-6051-7C28C775F2D9" referredColumn="C99F28F4-5EF5-9215-76F9-4E1221FDC1CD"/>
+</associations>
+</Column>
+<Column name="id_pelanggan2" id="8D77CEFE-A1C5-3C5D-9720-8CE9F2741DF2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>9D4BC508-D160-A54B-5237-DFA67D33A5A3</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD24A54D-6BE8-3477-68F8-CA92CF6CD709" referredColumn="992BC9C8-8CD9-5E33-C219-EFADD146ABA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96B698A5-8903-D387-74D9-0B1992BC4155" name="pesanan_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:54:02 UTC</createdTime>
+<generatorID>F9DC7CB3-C936-7818-9D71-73BB9D5C2371</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40519949-4302-688A-7DC2-078CF389F69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC037850-4178-B92B-B35D-E7F9D0E448BB" name="pesanan_pelanggan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>17F0F4B1-3774-910B-26AD-AFCA68EEC666</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D77CEFE-A1C5-3C5D-9720-8CE9F2741DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AE1EBCA-F48D-9B99-DD3F-E9ED49364F28" name="pesanan_meja_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>41A86280-83A2-D340-8926-25D170874970</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80DCB68F-5C67-AEFA-9FFA-5A21F73F56C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

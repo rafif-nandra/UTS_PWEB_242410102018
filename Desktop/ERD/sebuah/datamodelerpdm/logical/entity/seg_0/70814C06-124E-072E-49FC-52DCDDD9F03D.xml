@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70814C06-124E-072E-49FC-52DCDDD9F03D" name="pesanan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:20:00 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pesanan" id="12630A19-AFCF-0FAF-BFBE-6DC76D094263">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:08:26 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pelanggan" id="C14D1665-A1BF-6CA9-27D8-73DBA26E176E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:09:27 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id meja" id="A59FF077-3A3B-EFBB-84C9-71EE0EDB7669">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:11:05 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status pesanan" id="41C352C2-B328-7469-5D92-CBD95EF9D49A">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:11:54 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal pesanan" id="A1BE1A4D-A32B-4525-2CD3-6A7CD2F655CD">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:12:45 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id meja1" id="D5FDC21A-9B91-991E-890A-418CF1ACEAEF">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:48:14 UTC</createdTime>
+<generatorID>41A86280-83A2-D340-8926-25D170874970</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2BAF835A-50B8-58A4-113C-C2B9DC02E5DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="9D4BC508-D160-A54B-5237-DFA67D33A5A3">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:50:43 UTC</createdTime>
+<generatorID>17F0F4B1-3774-910B-26AD-AFCA68EEC666</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<referedAttribute>A0F21565-6A96-2103-1BCA-BEBA68845AE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9DC7CB3-C936-7818-9D71-73BB9D5C2371" name="pesanan PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 02:09:24 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12630A19-AFCF-0FAF-BFBE-6DC76D094263</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

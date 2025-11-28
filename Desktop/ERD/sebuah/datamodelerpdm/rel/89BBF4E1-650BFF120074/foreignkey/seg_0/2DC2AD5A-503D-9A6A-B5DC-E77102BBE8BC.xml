@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DC2AD5A-503D-9A6A-B5DC-E77102BBE8BC" containerWithKeyObject="1CAB2AF1-CC33-4620-19A6-A6D804BCF2AF" localFKIndex="F7A00E48-0387-D908-9610-497629D96023" name="detail_shift_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 03:51:49 UTC</createdTime>
+<generatorID>679FE0B2-7A75-FC10-DCEE-07C12EAA9A67</generatorID>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<referredTableLongName>admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5135E479-DF8F-1696-1F9D-9522015CE105</referredTableID>
+<keyObject>251CAE2A-F545-6CA1-D9AC-FB231FBDCEA3</keyObject>
+<referredKeyID>251CAE2A-F545-6CA1-D9AC-FB231FBDCEA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_admin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

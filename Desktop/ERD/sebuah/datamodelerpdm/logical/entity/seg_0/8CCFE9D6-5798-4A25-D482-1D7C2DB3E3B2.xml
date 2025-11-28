@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CCFE9D6-5798-4A25-D482-1D7C2DB3E3B2" name="admin">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:15:06 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id admin" id="C9213283-75AB-DF7C-A1E7-EC0577F14CB8">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:15:16 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama admin" id="005847B2-CC10-F3F7-FD66-DF2F3A76D729">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:15:38 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no telp admin" id="1265FE1F-92D5-8779-CEE8-1F7C9A2CD1C2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:16:04 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email admin" id="65A51D43-4892-A3F0-EA17-A64CE9F862BA">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:16:46 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password admin" id="86DC00F0-16BB-5875-F4A0-A705BE2830E9">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:18:46 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3367EDB4-B9F6-5A02-CEB6-253AC40462D2" name="admin PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:15:30 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C9213283-75AB-DF7C-A1E7-EC0577F14CB8</newElementsIDs>
+<usedAttributes>
+<attributeRef>C9213283-75AB-DF7C-A1E7-EC0577F14CB8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="AC6F875B-6C0D-796D-DA6A-E4A6FB6B7101" name="admin_no_telp_admin_email_admin_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-26 01:17:11 UTC</createdTime>
+<ownerDesignName>datamodelerpdm</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="89BBF4E1-B861-8705-214E-650BFF120074" value="false"/>
+</engineerTo>
+<newElementsIDs>1265FE1F-92D5-8779-CEE8-1F7C9A2CD1C2,65A51D43-4892-A3F0-EA17-A64CE9F862BA</newElementsIDs>
+<usedAttributes>
+<attributeRef>1265FE1F-92D5-8779-CEE8-1F7C9A2CD1C2</attributeRef>
+<attributeRef>65A51D43-4892-A3F0-EA17-A64CE9F862BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
