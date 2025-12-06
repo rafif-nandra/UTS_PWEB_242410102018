@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="956821E5-696C-9ADA-715E-48A29258F23F" name="jenis_menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>266C19E5-EE4A-5D2F-90BF-E523FE5D085B</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_jenis_menu" id="A89E789D-712C-E31B-A8DA-8699EBB3BE77">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>15AC52D9-DAA0-4028-F3AF-F4074161999F</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08643B8E-6FB2-49B7-1572-A50EF405BA56" name="jenis_menu_nama_jenis_menu_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>DB5F25FA-1E89-C431-5759-3F1CA2F4173E</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A89E789D-712C-E31B-A8DA-8699EBB3BE77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E07A7F48-27A7-06FA-C00A-5C671F2C417B" name="pelanggan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>E4F0E2D7-7C39-7DD1-5DDC-667F6D7E55A4</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_pelanggan" id="CACDAB7E-B02A-87CC-9829-AFCCA39B958F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>CC9B4AA9-894E-265C-D156-619571D29CF1</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_pelanggan" id="A055CB0E-66F8-BBE7-6975-B58DE3040EB5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>56903C6A-10B6-13F5-7256-C6664BEB3D79</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password_pelanggan" id="B8843C1F-3677-8951-63D8-CAAD4449F86F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>7C95E76D-5BA7-53A1-3D2E-82A12A9C6863</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27F090E1-75A3-2DF7-FDA7-0D42F09C2472" name="pelanggan_email_pelanggan_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>CC8B4CC6-1D34-F95D-396E-0ACFB5F899D9</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A055CB0E-66F8-BBE7-6975-B58DE3040EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F14F7B7E-9079-6723-B427-AFF36D40F0E6" name="admin">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>93B383E2-C5C2-0931-5062-E19F0EDCEDF3</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_admin" id="EB5048D5-2603-E224-1BD8-DB2A5DCEBB8F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>AB4A38BE-6FF4-29AE-FB28-9EE4B8FD38B9</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_telp_admin" id="D30F85C5-4C4C-F3DB-3F5C-2ACB0146196F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>483DB45C-AD8C-8A24-678A-7D88D87DBD77</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_admin" id="8546646C-3FA6-4BFF-0724-3C0F83D60B61">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>3720F2C5-8495-55CA-ED71-81AC0192E772</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password_admin" id="D16F8EEF-586C-D0F6-15E3-D9F9C32B20FB">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>BBE627CC-014B-6D9C-E17F-E7498A615BE3</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A2078C1-98E8-73C1-A06F-FDE96312AF8D" name="admin_no_telp_admin_email_admin_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>295783CF-AA51-7E12-3C64-97234B522A41</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D30F85C5-4C4C-F3DB-3F5C-2ACB0146196F"/>
+<colUsage columnID="8546646C-3FA6-4BFF-0724-3C0F83D60B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

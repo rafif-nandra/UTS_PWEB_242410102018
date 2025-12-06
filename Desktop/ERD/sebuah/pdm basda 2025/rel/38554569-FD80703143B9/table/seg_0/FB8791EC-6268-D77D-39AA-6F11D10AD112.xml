@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB8791EC-6268-D77D-39AA-6F11D10AD112" name="detail_pesanan">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>7DBDBAFB-2CD3-BC7D-1F4A-7F84B0963E2E</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jumlah" id="42C562C9-9EE3-B194-9A67-0F9732FD0C16">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>2A7C653C-702F-E447-EB16-E858071F503F</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_menu" id="8F4FE66E-ED93-59E9-37FD-1A09AA6F5E13">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>7EB512A5-597E-2FB6-A59B-D569D6238849</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F257AA4-C1F9-6B61-CCA9-1A85829E3B68" referredColumn="DA510FA9-0823-9843-2EA3-554F56EBD07A"/>
+</associations>
+</Column>
+<Column name="pesanan_pesanan_ID" id="BA935314-679C-2711-FC09-1429192A3A4E">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="493840CA-C401-3107-7EA6-BC36964A4E49" referredColumn="8ED4D198-08FE-6C1A-2C0B-6E57DA7900EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6CF4044-C035-B5FE-EFD0-3325FB9302E4" name="detail_pesanan_pesanan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>C83DE771-A849-5D9F-C16F-2AB924426E62</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA935314-679C-2711-FC09-1429192A3A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="647105ED-C148-1F6A-4D9C-939E79EAE30D" name="detail_pesanan_menu_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>39CEAD28-9D53-F6DF-E852-65534D75E52A</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4FE66E-ED93-59E9-37FD-1A09AA6F5E13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

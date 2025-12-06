@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90A779DB-E552-F906-566E-B2BB185D4521" name="menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>D89FA473-7AB0-1510-341E-C54D8F647409</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nama_menu" id="DA510FA9-0823-9843-2EA3-554F56EBD07A">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>2F03A75D-0FC0-5A2B-D88E-DD60EA553A43</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga" id="9FB8A872-944D-7A2F-9507-9316352DEE00">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>796D708E-FCA7-4FE0-03C0-6AE543264095</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="7BBD3477-4343-5A76-593A-77BE5C718884">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>B240CAA6-7E2D-34D5-0EE0-3DD15C875A39</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_jenis_menu" id="FC1AABD3-5D6C-EC30-20DB-939030A26B9C">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>35406CD1-1A54-414B-5335-5097B05EEC1B</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DAF5BAB-B006-EAB5-BB53-CFE4F4AFB762" referredColumn="A89E789D-712C-E31B-A8DA-8699EBB3BE77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F3155B6-1655-F56F-ED08-1D62F0D9BB5B" name="menu_nama_menu_UN">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>9A8116C3-DC8B-5968-4540-9B5FB837A303</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA510FA9-0823-9843-2EA3-554F56EBD07A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A30BA0AD-CE98-49F8-42D9-3587DDA97412" name="menu_jenis_menu_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>C7CC764B-C1B2-5061-D06A-9668523CE26C</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC1AABD3-5D6C-EC30-20DB-939030A26B9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

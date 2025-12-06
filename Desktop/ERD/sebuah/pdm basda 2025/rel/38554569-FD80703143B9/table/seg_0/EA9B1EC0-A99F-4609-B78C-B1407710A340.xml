@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA9B1EC0-A99F-4609-B78C-B1407710A340" name="transaksi">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>6D7D7D59-8371-5955-524E-62A1BA5D4E19</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tanggal_pembayaran" id="6193E63B-80DC-F70E-09DE-7484E95FADF0">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>C2D723A2-129D-BE97-2750-0B4E25C54E14</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_harga" id="B174BB5B-4A7A-8C8D-4597-C4A95624A5A2">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>878159CA-5DE7-5E51-AD8A-0646F6538787</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="validity" id="CCBE172B-25EA-AA03-368D-2598E82B3D97">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>EDCA6741-9BC0-96B3-9D83-7D124C460DB8</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_metode_pembayaran" id="612EEBDB-C10E-AFBC-5F4E-C258DFC664C1">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>41614265-4CDE-E947-938C-DAFE989E134E</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B73B55AD-F82F-8731-FD70-AC1A2E986BA9" referredColumn="BFCEBE92-22C4-18C6-EB58-F232A09C3083"/>
+</associations>
+</Column>
+<Column name="no_telp_admin" id="B0CA1A53-7CFE-76A1-29C5-1EB7688D6BC8">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>8B6954D3-8DED-C1C9-3D8B-68BDAA74D132</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCEC5190-C174-5717-6085-F0BB71878D40" referredColumn="D30F85C5-4C4C-F3DB-3F5C-2ACB0146196F"/>
+</associations>
+</Column>
+<Column name="email_admin" id="798B96F6-ACCF-4D81-9821-70B002BE652D">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>BD56BB49-5133-2786-3AAF-B3A72A79E585</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCEC5190-C174-5717-6085-F0BB71878D40" referredColumn="8546646C-3FA6-4BFF-0724-3C0F83D60B61"/>
+</associations>
+</Column>
+<Column name="transaksi_ID" id="D7D0F42A-E4D2-86DA-F6B8-D0B8596E57D4">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="pesanan_pesanan_ID" id="C533EC27-44B7-4157-FAA9-2EDF456D1EA5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1548A11-A3E9-F556-4148-B7BF54CA0844" referredColumn="8ED4D198-08FE-6C1A-2C0B-6E57DA7900EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A153932-54F3-D260-BC7E-BBF13C709A23" name="transaksi_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D7D0F42A-E4D2-86DA-F6B8-D0B8596E57D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A3A240B-EDFB-6A83-CC0D-4D94CA7F09BE" name="transaksi__IDX">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2551C9B0-66CF-E0A5-B732-1621FF3A7B8F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C533EC27-44B7-4157-FAA9-2EDF456D1EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6247CF57-3616-7338-533B-5D54C451F4DF" name="transaksi_metode_pembayaran_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>4FF34A5D-B430-FED4-52C0-C344164677DF</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="612EEBDB-C10E-AFBC-5F4E-C258DFC664C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D622E68-34EF-A85C-9732-02678CEE518B" name="transaksi_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>C4DF45F6-20EC-11D9-FD82-8363904C85C9</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0CA1A53-7CFE-76A1-29C5-1EB7688D6BC8"/>
+<colUsage columnID="798B96F6-ACCF-4D81-9821-70B002BE652D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45A926F9-2D42-2738-2BF6-26E01F24EB9C" name="transaksi_pesanan_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>2551C9B0-66CF-E0A5-B732-1621FF3A7B8F</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C533EC27-44B7-4157-FAA9-2EDF456D1EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

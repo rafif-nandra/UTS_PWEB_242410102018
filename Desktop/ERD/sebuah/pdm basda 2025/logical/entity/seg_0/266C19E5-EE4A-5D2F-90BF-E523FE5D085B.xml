@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="266C19E5-EE4A-5D2F-90BF-E523FE5D085B" name="jenis_menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:35:41 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nama_jenis_menu" id="15AC52D9-DAA0-4028-F3AF-F4074161999F">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:35:51 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB5F25FA-1E89-C431-5759-3F1CA2F4173E" name="Key_1">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:36:28 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<newElementsIDs>15AC52D9-DAA0-4028-F3AF-F4074161999F</newElementsIDs>
+<usedAttributes>
+<attributeRef>15AC52D9-DAA0-4028-F3AF-F4074161999F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

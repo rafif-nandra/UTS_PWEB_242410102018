@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8EF67EA-6A78-74AD-888F-A032EDAB901A" containerWithKeyObject="B8C1D211-A34C-DDAC-B04A-207C158638FB" localFKIndex="4E2A0D44-0E3B-66F4-6E5D-D97E06686849" name="pesanan_meja_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>7DE63A99-DDD6-AC29-970F-49B94EBDC818</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<referredTableLongName>meja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02FAA03D-90A7-6F98-76E5-1C51D5F156C2</referredTableID>
+<keyObject>3C76060F-586F-6C6C-9A4C-CBE33ED1A04B</keyObject>
+<referredKeyID>3C76060F-586F-6C6C-9A4C-CBE33ED1A04B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nomor_meja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

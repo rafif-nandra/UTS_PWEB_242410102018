@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E804F59-9313-A476-208F-F25B0014AF72" containerWithKeyObject="72F81BA2-4DA7-76EB-5FCC-5FFF12BD94BD" localFKIndex="8BB942BD-81D5-DE40-8D89-003FF25EFE8D" name="detail_shift_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>EA4FE852-0A76-CD81-5381-6C7918842703</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<referredTableLongName>admin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F14F7B7E-9079-6723-B427-AFF36D40F0E6</referredTableID>
+<keyObject>6A2078C1-98E8-73C1-A06F-FDE96312AF8D</keyObject>
+<referredKeyID>6A2078C1-98E8-73C1-A06F-FDE96312AF8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>no_telp_admin,email_admin</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

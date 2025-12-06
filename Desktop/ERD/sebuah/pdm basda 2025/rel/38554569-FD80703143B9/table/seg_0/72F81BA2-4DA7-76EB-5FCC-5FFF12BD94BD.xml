@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72F81BA2-4DA7-76EB-5FCC-5FFF12BD94BD" name="detail_shift">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>4CF5B9F4-D158-C88D-14B8-974153D90960</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_telp_admin1" id="1984EEFB-5C9A-61DA-F968-4529AE499700">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>2F2084F7-3171-CCFC-8F4E-0BC306E0123F</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E804F59-9313-A476-208F-F25B0014AF72" referredColumn="D30F85C5-4C4C-F3DB-3F5C-2ACB0146196F"/>
+</associations>
+</Column>
+<Column name="email_admin1" id="AD05F325-A97E-3F92-FB69-A667E686F463">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>94BC29C1-1837-2F10-66C4-BA6B6AA06EB7</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E804F59-9313-A476-208F-F25B0014AF72" referredColumn="8546646C-3FA6-4BFF-0724-3C0F83D60B61"/>
+</associations>
+</Column>
+<Column name="jadwal_shift_jadwal_shift_ID" id="5344CE25-E416-175D-6BB1-96E2FAB2B3C4">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="054E7CFD-6F9D-0A69-F308-613068E7AEC4" referredColumn="6BA07830-91DA-ABF0-4F28-82B24B9FAB39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="709E27AA-CEA4-B8F4-3067-3D974997D816" name="detail_shift_PK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>2495631A-8CEF-5DBB-28DC-47680D151DF7</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1984EEFB-5C9A-61DA-F968-4529AE499700"/>
+<colUsage columnID="AD05F325-A97E-3F92-FB69-A667E686F463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BB942BD-81D5-DE40-8D89-003FF25EFE8D" name="detail_shift_admin_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>EA4FE852-0A76-CD81-5381-6C7918842703</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1984EEFB-5C9A-61DA-F968-4529AE499700"/>
+<colUsage columnID="AD05F325-A97E-3F92-FB69-A667E686F463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC30884D-48AC-A68A-AF87-8CBB745C67AC" name="detail_shift_jadwal_shift_FK">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:03:43 UTC</createdTime>
+<generatorID>DA81BB4B-A323-B991-8EE6-E130AC2953A9</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5344CE25-E416-175D-6BB1-96E2FAB2B3C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

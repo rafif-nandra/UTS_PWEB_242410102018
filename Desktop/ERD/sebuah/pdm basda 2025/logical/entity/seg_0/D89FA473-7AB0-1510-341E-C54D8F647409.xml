@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D89FA473-7AB0-1510-341E-C54D8F647409" name="menu">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:33:44 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nama_menu" id="2F03A75D-0FC0-5A2B-D88E-DD60EA553A43">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:33:50 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="796D708E-FCA7-4FE0-03C0-6AE543264095">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:34:22 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_deleted" id="B240CAA6-7E2D-34D5-0EE0-3DD15C875A39">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:34:57 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_jenis_menu" id="35406CD1-1A54-414B-5335-5097B05EEC1B">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 05:01:24 UTC</createdTime>
+<generatorID>C7CC764B-C1B2-5061-D06A-9668523CE26C</generatorID>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<referedAttribute>15AC52D9-DAA0-4028-F3AF-F4074161999F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A8116C3-DC8B-5968-4540-9B5FB837A303" name="Key_1">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:36:52 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<engineerTo>
+<item key="38554569-C9E2-5847-3A03-FD80703143B9" value="true"/>
+</engineerTo>
+<newElementsIDs>2F03A75D-0FC0-5A2B-D88E-DD60EA553A43</newElementsIDs>
+<usedAttributes>
+<attributeRef>2F03A75D-0FC0-5A2B-D88E-DD60EA553A43</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pdm basda 2025" id="8F466BDF-C411-D60C-2C53-E6AE3644B316" version="3.5">
+<createdBy>rafifnandra</createdBy>
+<createdTime>2025-11-28 04:08:46 UTC</createdTime>
+<ownerDesignName>pdm basda 2025</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8F466BDF-C411-D60C-2C53-E6AE3644B316</designId>
+</OSDM_Design>
